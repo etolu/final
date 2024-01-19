@@ -1,0 +1,127 @@
+.top {
+    font-size: 70px;
+    text-align: center;
+}
+
+.nekoimg {
+    width:180px;
+    height:120px;
+}
+
+p {
+    margin:10px;
+    color: rgb(100, 100, 100);
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+.top {
+	position: relative;
+	width: 100%;
+	line-height: 60px;
+	background: rgb(255, 250, 244);
+	display: inline-block;
+	vertical-align: middle;
+}
+/* ロゴ */
+.nekoimg {
+	padding: 0 20px;
+	font-size: 18px;
+	color: #fff;
+	letter-spacing: .2em;
+}
+/* ボタン */
+.torokubutton {
+	position: absolute;
+	top: 50%;
+	right: 1rem;
+	transform: translateY(-50%);
+}
+/* ボタンのデザイン */
+.torokubutton {
+	display: block;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	background: rgb(100, 100, 100);
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	letter-spacing: .2em;
+	text-indent: .2em;
+	border-radius: 10px;
+}
+
+.cate {
+    text-align: center;
+}
+.cate button {
+	margin: auto;
+}
+
+/* .button {
+	position: absolute;
+	top: 50%;
+	right: 1rem;
+	transform: translateY(-50%);
+} */
+/* ボタンのデザイン */
+button {
+	display: block;
+	width: 60px;
+	height: 30px;
+	border-color: white;
+	color: rgb(100, 100, 100);
+	background-color: rgb(220, 220, 220);
+	text-align: center;
+	border-radius: 10px;
+}
+
+table {
+    margin: auto;
+}
+
+table{
+	border-collapse:separate;
+	border-spacing: 0;
+  }
+  
+  table th:first-child{
+	border-radius: 5px 0 0 0;
+  }
+  
+  table th:last-child{
+	border-radius: 0 5px 0 0;
+	border-right: 1px solid #7a6b53;
+  }
+  
+  table th{
+	text-align: center;
+	color:white;
+	background: rgb(100, 100, 100);
+	border-left: 1px solid rgb(65, 65, 65);
+	border-top: 1px solid rgb(65, 65, 65);
+	border-bottom: 1px solid rgb(65, 65, 65);
+	padding: 10px 0;
+  }
+  
+  table td{
+	text-align: center;
+	border-left: 1px solid rgb(65, 65, 65);
+	border-bottom: 1px solid rgb(65, 65, 65);
+	border-top:none;
+	padding: 5px 5px;
+  }
+  
+  table td:last-child{
+	border-right: 1px solid rgb(65, 65, 65);
+  }
+  
+  table tr:last-child td:first-child {
+	border-radius: 0 0 0 5px;
+  }
+  
+  table tr:last-child td:last-child {
+	border-radius: 0 0 5px 0;
+  }
